@@ -1,0 +1,34 @@
+.login-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .form-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    position: relative;
+  }
+  
+  .input-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: grey;
+  }
+  
+  .login-button {
+    margin-top: 20px;
+    background-color: #2185d0 !important;
+    color: white !important;
+  }
+  
+  .login-button:hover {
+    background-color: #1678c2 !important;
+    color: white !important;
+  }
